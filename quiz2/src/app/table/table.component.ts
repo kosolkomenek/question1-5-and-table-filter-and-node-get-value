@@ -19,8 +19,8 @@ export class TableComponent implements OnInit {
   }
   applyFilter() {
     let filterValue = this.filterString;
-    filterValue = filterValue.trim(); // Remove whitespace
-    filterValue = filterValue.toLowerCase(); // MatTableDataSource defaults to lowercase matches
+    filterValue = filterValue.trim();
+    filterValue = filterValue.toLowerCase();
     this.dataSourceShow = this.dataSource.filter((element: string) =>
       element.toLowerCase().includes(filterValue)
     );
