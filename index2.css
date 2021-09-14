@@ -1,0 +1,10 @@
+.star {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Only allow to add content inside this block */
+  
+    /* */
+  }
+  
